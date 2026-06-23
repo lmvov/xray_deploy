@@ -361,6 +361,7 @@ main_menu() {
 
     clear
     echo -e "${YELLOW}====== Xray 管理菜单 (状态: $STATUS) ======${RESET}"
+    echo -e "${YELLOW}当前时间: $(date '+%Y-%m-%d %H:%M:%S %Z')${RESET}"
     echo -e "${YELLOW}1) 添加协议节点${RESET}"
     echo -e "${YELLOW}2) 查看协议节点${RESET}"
     echo -e "${YELLOW}3) 删除协议节点${RESET}"
